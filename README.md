@@ -33,20 +33,13 @@ T(n) = 2T(n/2) + Θ(n), overall Θ(n log n).
 
 ## 3. Plots and Discussion
 
-### Execution Time (ms) vs Input Size (n)
+### Time vs Input Size
 
-<!-- Если графики в папке plots -->
-![Execution Time](./plots/graph1.png)  
+![Execution Time](./graph1.png)
 
-<!-- Альтернативно, если хочешь использовать абсолютный путь (Windows): -->
-<!-- ![Execution Time](file:///C:/Users/akuan/Downloads/graph1.png) -->
+### QuickSort Recursion Depth vs Input Size
 
-### QuickSort Recursion Depth vs Input Size (n)
-
-![Recursion Depth](./plots/graph2.png)  
-
-<!-- Альтернативно, абсолютный путь (Windows): -->
-<!-- ![Recursion Depth](file:///C:/Users/akuan/Downloads/graph2.png) -->
+![Recursion Depth](./graph2.png)
 
 The plots show that the execution times of all algorithms increase roughly according to theoretical expectations.  
 QuickSort recursion depth remains within the expected O(log n) bounds due to recursion only on the smaller partition.  
